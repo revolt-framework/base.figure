@@ -1,0 +1,35 @@
+//
+// REVOLT!
+// BASE.FIGURE
+//
+
+
+
+// Predefine the variables below to alter and enable specific features.
+
+$revo-figure-figcation-margin-top:    halve($revo-spacer-y) !default;
+$revo-figure-figcation-padding-x:     0 !default;
+$revo-figure-figcation-padding-y:     0 !default;
+$revo-figure-figcation-color:         inherit !default;
+$revo-figure-figcation-bg:            transparent !default;
+$revo-figure-figcation-font-size:     .9rem !default;
+
+
+
+// 1. Ensures the caption's text aligns with the image.
+
+figure {
+    display: inline-block; // [1]
+
+    img {
+        line-height: 1;
+    }
+
+    figcaption {
+        padding: $revo-figure-figcation-padding-y $revo-figure-figcation-padding-x;
+        margin-top: $revo-figure-figcation-margin-top;
+        font-size: $revo-figure-figcation-font-size;
+        color: $revo-figure-figcation-color;
+        background: $revo-figure-figcation-bg;
+    }
+}

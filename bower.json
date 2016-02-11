@@ -1,0 +1,23 @@
+{
+  "name": "revolt.base.figure",
+  "homepage": "https://github.com/revolt-framework/base.figure",
+  "authors": [
+    {
+      "name": "Ruven Pelka",
+      "email": "ruven.pelka@gmail.com",
+      "homepage": "http://ruvenpelka.com"
+    }
+  ],
+  "description": "Revolt framework module to style figure element.",
+  "main": "_base.figure.scss",
+  "keywords": [
+    "revolt",
+    "oocss",
+    "css"
+  ],
+  "dependencies": {
+    "revolt.settings.defaults": "0.x.x",
+    "revolt.tools.functions": "0.x.x"
+  },
+  "license": "MIT"
+}
